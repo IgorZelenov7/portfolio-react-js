@@ -1,0 +1,12 @@
+:root {
+  --solid-heading: #42446e;
+  --dark-content: #666;
+  --solid-heading-dark-mode: #ccc;
+  --light-content: #a7a7a7;
+  --dark-mode: #191919;
+  --button-text: #018c0f;
+  --button-success: #d7ffe0;
+
+  --font-family: 'Montserrat', sans-serif;
+  --second-family: 'Roboto', sans-serif;
+}
