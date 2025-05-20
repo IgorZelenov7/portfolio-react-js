@@ -1,8 +1,9 @@
 import './NavList.css';
 
-const NavList = () => {
+const NavList = ({children}) => {
   return (
     <ul className='nav-list'>
+      {children}
       <li className='nav-item'>Home</li>
       <li className='nav-item'>About</li>
       <li className='nav-item'>Tech Stack</li>

@@ -1,12 +1,8 @@
 import NavList from '../NavList/NavList';
 import './Header.css';
 
-const Header = () => {
-  return ( 
-    <div>
-      <NavList />
-   </div>
-   );
-}
- 
+const Header = ({ children }) => {
+  return <NavList>{children}</NavList>;
+};
+
 export default Header;
