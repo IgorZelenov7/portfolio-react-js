@@ -5,22 +5,22 @@ const NavList = () => {
     <ul className='nav-list'>
       <li className='nav-item'>
         <a href='#' className='nav-link'>
-          Home
+          Главная
         </a>
       </li>
       <li className='nav-item'>
         <a href='#' className='nav-link'>
-          About
+          Обо мне
         </a>
       </li>
       <li className='nav-item'>
         <a href='#' className='nav-link'>
-          Tech Stack
+          Стек
         </a>
       </li>
       <li className='nav-item'>
         <a href='#' className='nav-link'>
-          Projects
+          Проекты
         </a>
       </li>
     </ul>

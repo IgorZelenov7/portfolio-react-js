@@ -1,13 +1,18 @@
 .social-logo {
+  width: 30px;
+  height: 30px;
   filter: brightness(0) saturate(100%) invert(40%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%) contrast(90%);
-  transition: filter 0.3s ease;
+  transition: all 0.2s ease; 
+  transform: scale(1);
 }
 
 .social-link:hover .social-logo {
   filter: brightness(0) saturate(100%) invert(70%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%) contrast(90%);
+  transform: scale(1.1); 
 }
 
 .socials-list {
   display: flex;
   gap: 20px;
 }
+

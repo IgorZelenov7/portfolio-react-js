@@ -7,12 +7,30 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 26px;
-
   text-decoration: none;
   color: var(--dark-content);
-  transition: all 0.2s ease-in;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px;
+  transition: color 0.2s ease-in;
 }
 
 .nav-link:hover {
   color: var(--light-content);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--light-content);
+  transition: all 0.2s ease-out;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+  width: 100%;
 }
