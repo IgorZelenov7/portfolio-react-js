@@ -1,14 +1,28 @@
 import './NavList.css';
 
-const NavList = ({children}) => {
+const NavList = () => {
   return (
     <ul className='nav-list'>
-      {children}
-      <li className='nav-item'>Home</li>
-      <li className='nav-item'>About</li>
-      <li className='nav-item'>Tech Stack</li>
-      <li className='nav-item'>Projects</li>
-      <li className='nav-item'>Contact</li>
+      <li className='nav-item'>
+        <a href='#' className='nav-link'>
+          Home
+        </a>
+      </li>
+      <li className='nav-item'>
+        <a href='#' className='nav-link'>
+          About
+        </a>
+      </li>
+      <li className='nav-item'>
+        <a href='#' className='nav-link'>
+          Tech Stack
+        </a>
+      </li>
+      <li className='nav-item'>
+        <a href='#' className='nav-link'>
+          Projects
+        </a>
+      </li>
     </ul>
   );
 };

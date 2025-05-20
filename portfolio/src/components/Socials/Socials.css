@@ -1,0 +1,13 @@
+.social-logo {
+  filter: brightness(0) saturate(100%) invert(40%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%) contrast(90%);
+  transition: filter 0.3s ease;
+}
+
+.social-link:hover .social-logo {
+  filter: brightness(0) saturate(100%) invert(70%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%) contrast(90%);
+}
+
+.socials-list {
+  display: flex;
+  gap: 20px;
+}
