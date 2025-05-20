@@ -1,4 +1,5 @@
 import mainLogo from '../../assets/react.svg';
+import './Logo.css';
 
 const Logo = () => {
   return (
