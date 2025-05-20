@@ -1,0 +1,20 @@
+.stack-title {
+  margin-bottom: 140px;
+}
+
+.title {
+  color: var(--solid-heading);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.content {
+  color: var(--dark-content);
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 26px;
+}

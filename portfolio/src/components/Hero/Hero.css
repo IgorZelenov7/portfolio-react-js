@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 250px;
 }
 
 .hero-title {

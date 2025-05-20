@@ -1,9 +1,9 @@
 import './Hero.css';
-import photo from '../../assets/photo.png';
+import photo from '../../assets/photo.jpg';
 
 const Hero = () => {
   return (
-    <section className='hero'>
+    <section className='hero none'>
       <div className='hero-title'>
         <p className='hero-text'>
           Привет 👋,
