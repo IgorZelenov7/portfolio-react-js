@@ -1,5 +1,5 @@
 .stack {
-  margin-bottom: 250px;
+  margin-bottom: 200px;
 }
 
 .icons-container {
@@ -7,7 +7,7 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: auto auto;
   gap: 50px;
-  justify-items: center; 
+  justify-items: center;
   align-items: center;
   width: 100%;
   margin: 0 auto;
@@ -17,12 +17,10 @@
   width: 120px;
   height: 120px;
   transition: all 0.2s ease;
-  filter: drop-shadow(0 2px 2px rgba(0,0,0,0.1));
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.1));
 }
 
 .icon:hover {
   transform: scale(1.1);
-  filter: 
-    drop-shadow(0 4px 6px rgba(0,0,0,0.15))
-    brightness(1.05);
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.15)) brightness(1.05);
 }

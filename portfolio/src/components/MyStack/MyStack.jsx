@@ -16,23 +16,23 @@ import github from '../../assets/stack/github.svg';
 
 const MyStack = () => {
   return (
-    <section className='stack none'>
+    <section className='stack' id='my-stack'>
       <div className='stack-title'>
         <Title title='Мой стек технологий' content='Технологии, с которыми я постоянно работаю' />
       </div>
       <div className='icons-container'>
         <img src={html} alt='html' className='icon' />
-        <img src={css} alt='' className='icon' />
-        <img src={js} alt='' className='icon' />
-        <img src={react} alt='' className='icon' />
-        <img src={vector} alt='' className='icon' />
-        <img src={bootstrap} alt='' className='icon' />
-        <img src={tailwind} alt='' className='icon' />
-        <img src={sass} alt='' className='icon' />
-        <img src={git} alt='' className='icon' />
-        <img src={greensock} alt='' className='icon' />
-        <img src={vscode} alt='' className='icon' />
-        <img src={github} alt='' className='icon' />
+        <img src={css} alt='css' className='icon' />
+        <img src={js} alt='js' className='icon' />
+        <img src={react} alt='react' className='icon' />
+        <img src={vector} alt='vector' className='icon' />
+        <img src={bootstrap} alt='bootstrap' className='icon' />
+        <img src={tailwind} alt='tailwind' className='icon' />
+        <img src={sass} alt='sass' className='icon' />
+        <img src={git} alt='git' className='icon' />
+        <img src={greensock} alt='greensock' className='icon' />
+        <img src={vscode} alt='vscode' className='icon' />
+        <img src={github} alt='github' className='icon' />
       </div>
     </section>
   );
