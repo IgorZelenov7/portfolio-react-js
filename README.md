@@ -7,5 +7,5 @@
 
 Здесь вы найдете мои работы, реализованные с использованием HTML, CSS, JavaScript и React. Готов к новым задачам и профессиональному росту.
 
-Контакты: @igorqx (Telegram), github.com/igorzelenov7
+Контакты: @igorqx (Telegram)
 
